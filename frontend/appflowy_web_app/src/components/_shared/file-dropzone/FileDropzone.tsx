@@ -70,7 +70,7 @@ function FileDropzone ({
 
   return (
     <div
-      className={'w-full cursor-pointer hover:border-fill-active hover:border-2 hover:bg-bg-body h-[160px] rounded-xl border border-dashed border-line-border flex flex-col bg-bg-base'}
+      className={'w-full cursor-pointer hover:border-fill-active hover:border-2 px-4 hover:bg-bg-body h-[160px] rounded-xl border border-dashed border-line-border flex flex-col bg-bg-base'}
       onDrop={handleDrop}
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
@@ -84,7 +84,7 @@ function FileDropzone ({
     >
       <div className={'flex flex-col items-center justify-center gap-4 h-full'}>
         <Inbox className={'w-12 h-12 text-fill-default'} />
-        <div className={'text-base text-text-title'}>
+        <div className={'text-base text-center text-text-title'}>
           {t('fileDropzone.dropFile')}
         </div>
       </div>
